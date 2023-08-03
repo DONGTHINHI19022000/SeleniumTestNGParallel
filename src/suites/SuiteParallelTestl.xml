@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="tests" thread-count="6"> <!--Chay nhieu module-->
+    <test name="Regression Test Parallel">
+       <classes >
+           <class name="Nhi.Bai24.ParallalBai25.ParallalChrome"></class>
+           <class name="Nhi.Bai24.ParallalBai25.ParallalEdge"></class>
+
+       </classes>
+    </test>
+    <test name="Regression Test Parallel 2" >
+        <classes >
+
+            <class name="Nhi.Bai24.ParallalBai25.ParallalFireFox"></class>
+        </classes>
+    </test>
+</suite>

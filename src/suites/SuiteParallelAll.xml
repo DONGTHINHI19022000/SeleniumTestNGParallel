@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1"><!--chayj song song 3 @test-->
+    <test name="Regression Test Parallel" parallel="methods" thread-count="2">  <!--thread-count="3":so luồng chay song song =3-->
+       <classes >
+           <class name="Nhi.Bai24.ParallalBai25.ParallalChrome"></class>
+           <class name="Nhi.Bai24.ParallalBai25.ParallalEdge"></class>
+           <class name="Nhi.Bai24.ParallalBai25.ParallalFireFox"></class>
+       </classes>
+    </test>
+</suite>

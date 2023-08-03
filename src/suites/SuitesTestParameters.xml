@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Test parameters 1"><!--//bai 24-->
+        <parameter name="number1" value="0"></parameter>
+        <parameter name="number2" value="5"></parameter>
+        <parameter name="Message" value="nhin cai gi"></parameter>
+        <classes>
+            <class name="Nhi.Bai24.TestParameters"></class>
+        </classes>
+    </test>
+    <test name="Test parameters 2">
+        <parameter name="number1" value="2"></parameter>
+        <parameter name="Message" value="Chào"></parameter>
+        <classes>
+            <class name="Nhi.Bai24.TestParameters"></class>
+        </classes>
+    </test>
+</suite>
